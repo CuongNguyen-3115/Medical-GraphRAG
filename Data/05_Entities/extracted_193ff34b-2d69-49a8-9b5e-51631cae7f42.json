@@ -1,0 +1,19 @@
+{
+    "chunk_id": "193ff34b-2d69-49a8-9b5e-51631cae7f42",
+    "metadata": {
+        "source_file": "DOC_309.md",
+        "token_count": 1455,
+        "header_context": "NAPHAZOLIN",
+        "title": "Dược thư quốc gia Việt Nam",
+        "publisher": "Bộ Y tế",
+        "domain_l1": "Dược học",
+        "domain_l2": "Dược lý học",
+        "source_type": "drug_monograph",
+        "Published_Date": 2018,
+        "File_Name": "DOC_309",
+        "url": "https://trungtamthuoc.com/upload/pdf/duoc-thu-quoc-gia-viet-nam-2018.pdf",
+        "split_order": 2551
+    },
+    "extraction_raw": "(\"entity\"<|>NAPHAZOLIN<|>HOẠT_CHẤT_THUỐC<|>Thuốc được sử dụng để điều trị sung huyết mũi và kết mạc, thuộc nhóm thuốc co mạch)\n####\n(\"entity\"<|>SUNG HUYẾT MŨI<|>TRIỆU_CHỨNG<|>Tình trạng viêm và sưng của niêm mạc mũi, thường gây ngạt mũi và khó thở)\n####\n(\"entity\"<|>SUNG HUYẾT KẾT MẠC<|>TRIỆU_CHỨNG<|>Tình trạng viêm và sưng của kết mạc, thường gây đỏ và khó chịu ở mắt)\n####\n(\"entity\"<|>NHỎ MŨI<|>PHƯƠNG_PHÁP_ĐIỀU_TRỊ<|>Phương pháp điều trị bằng cách nhỏ thuốc vào mũi để giảm sung huyết và cải thiện hô hấp)\n####\n(\"entity\"<|>NHỎ MẮT<|>PHƯƠNG_PHÁP_ĐIỀU_TRỊ<|>Phương pháp điều trị bằng cách nhỏ thuốc vào mắt để giảm sung huyết và cải thiện thị lực)\n####\n(\"entity\"<|>CƠ QUAN MẮT<|>CƠ_QUAN_CƠ_THỂ<|>Cơ quan cảm giác quan trọng, giúp con người nhìn và nhận thức thế giới xung quanh)\n####\n(\"entity\"<|>CƠ QUAN MŨI<|>CƠ_QUAN_CƠ_THỂ<|>Cơ quan cảm giác quan trọng, giúp con người ngửi và nhận thức mùi vị)\n####\n(\"entity\"<|>PHENOTOLAMIN<|>HOẠT_CHẤT_THUỐC<|>Thuốc được sử dụng để điều trị các tác dụng không mong muốn của naphazolin, thuộc nhóm thuốc chẹn alpha)\n####\n(\"relationship\"<|>NAPHAZOLIN<|>SUNG HUYẾT MŨI<|>Naphazolin được sử dụng để điều trị sung huyết mũi, giúp giảm sung huyết và cải thiện hô hấp<|>9)\n####\n(\"relationship\"<|>NAPHAZOLIN<|>SUNG HUYẾT KẾT MẠC<|>Naphazolin được sử dụng để điều trị sung huyết kết mạc, giúp giảm sung huyết và cải thiện thị lực<|>8)\n####\n(\"relationship\"<|>NHỎ MŨI<|>NAPHAZOLIN<|>Nhỏ mũi là phương pháp điều trị bằng cách sử dụng naphazolin để giảm sung huyết mũi<|>9)\n####\n(\"relationship\"<|>NHỎ MẮT<|>NAPHAZOLIN<|>Nhỏ mắt là phương pháp điều trị bằng cách sử dụng naphazolin để giảm sung huyết kết mạc<|>8)\n####\n(\"relationship\"<|>PHENOTOLAMIN<|>NAPHAZOLIN<|>Phenotolamin được sử dụng để điều trị các tác dụng không mong muốn của naphazolin<|>7)\n[DONE]\n(\"entity\"<|>THUỐC CO MẠCH<|>NHÓM_THUỐC<|>Nhóm thuốc được sử dụng để điều trị sung huyết và các vấn đề liên quan đến mạch máu)\n####\n(\"entity\"<|>THUỐC CHẸN ALPHA<|>NHÓM_THUỐC<|>Nhóm thuốc được sử dụng để điều trị các vấn đề liên quan đến huyết áp và mạch máu)\n####\n(\"entity\"<|>NGẠT MŨI<|>TRIỆU_CHỨNG<|>Tình trạng khó thở và ngạt mũi do sung huyết mũi hoặc các vấn đề khác)\n####\n(\"entity\"<|>KHÓ THỞ<|>TRIỆU_CHỨNG<|>Tình trạng khó thở và hô hấp do sung huyết mũi hoặc các vấn đề khác)\n####\n(\"entity\"<|>ĐỘC TÍNH<|>TÁC_DỤNG_PHỤ<|>Tình trạng độc tính của thuốc có thể gây ra các vấn đề sức khỏe nghiêm trọng)\n####\n(\"entity\"<|>TÁC DỤNG PHỤ<|>TÁC_DỤNG_PHỤ<|>Các vấn đề sức khỏe không mong muốn xảy ra khi sử dụng thuốc)\n####\n(\"relationship\"<|>THUỐC CO MẠCH<|>SUNG HUYẾT MŨI<|>Thuốc co mạch được sử dụng để điều trị sung huyết mũi<|>8)\n####\n(\"relationship\"<|>THUỐC CHẸN ALPHA<|>PHENOTOLAMIN<|>Thuốc chẹn alpha là nhóm thuốc mà phenotolamin thuộc về<|>9)\n####\n(\"relationship\"<|>NGẠT MŨI<|>SUNG HUYẾT MŨI<|>Ngạt mũi là triệu chứng của sung huyết mũi<|>8)\n####\n(\"relationship\"<|>KHÓ THỞ<|>SUNG HUYẾT MŨI<|>Khó thở là triệu chứng của sung huyết mũi<|>7)\n####\n(\"relationship\"<|>ĐỘC TÍNH<|>NAPHAZOLIN<|>Naphazolin có thể gây độc tính nếu sử dụng không đúng cách<|>6)\n####\n(\"relationship\"<|>TÁC DỤNG PHỤ<|>PHENOTOLAMIN<|>Phenotolamin có thể gây tác dụng phụ nếu sử dụng không đúng cách<|>6)",
+    "model_used": "llama-3.3-70b-versatile"
+}
