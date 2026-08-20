@@ -20,7 +20,7 @@ model = genai.GenerativeModel('gemini-3.1-flash-lite-preview') # Dùng bản Fla
 
 # --- 2. CẤU HÌNH ĐƯỜNG DẪN ---
 BASE_DIR = r'C:\1. Project\2. DoAn_GraphRAG'
-OUT_FILE = os.path.join(BASE_DIR, 'data', 'all_medical_urls.json')
+OUT_FILE = os.path.join(BASE_DIR, 'data', 'kcb_all_medical_urls.json')
 AJAX_URL = "https://kcb.vn/"
 
 # --- 3. HÀM PHÂN LOẠI BẰNG LLM ---

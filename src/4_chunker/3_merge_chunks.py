@@ -4,8 +4,8 @@ import logging
 from datetime import datetime
 
 # --- CẤU HÌNH ĐƯỜNG DẪN ---
-INPUT_FILE = r"C:\1. Project\2. DoAn_GraphRAG\Data\04_Chunks(2)\medical_chunks.json"
-OUTPUT_FILE = r"C:\1. Project\2. DoAn_GraphRAG\Data\04_Chunks(2)\medical_chunks_merged.json"
+INPUT_FILE = r"C:\1. Project\ĐATN\Data\04_Chunks\medical_chunks.json"
+OUTPUT_FILE = r"C:\1. Project\ĐATN\Data\04_Chunks\medical_chunks_merged_2.json"
 LOG_DIR = r"C:\1. Project\2. DoAn_GraphRAG\logs\4_chunker(2)"
 MIN_TOKEN_THRESHOLD = 200  # Ngưỡng gộp
 

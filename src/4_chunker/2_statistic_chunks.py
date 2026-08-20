@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 # --- CẤU HÌNH ĐƯỜNG DẪN ---
-CHUNK_FILE_PATH = r"C:\1. Project\2. DoAn_GraphRAG\Data\04_Chunks(2)\medical_chunks_merged.json"
+CHUNK_FILE_PATH = r"C:\1. Project\ĐATN\Data\04_Chunks\medical_chunks_merged.json"
 
 def analyze_chunks(file_path):
     if not os.path.exists(file_path):
@@ -35,8 +35,8 @@ def analyze_chunks(file_path):
         "Trung bình (Mean)": round(s.mean(), 2),
         "Trung vị (Median)": s.median(),
         "Độ lệch chuẩn (Std)": round(s.std(), 2),
-        "Phân vị 25% (Q1)": s.quantile(0.25),
-        "Phân vị 75% (Q3)": s.quantile(0.75)
+        # "Phân vị 25% (Q1)": s.quantile(0.25),
+        # "Phân vị 75% (Q3)": s.quantile(0.75)
     }
 
     # 5. Hiển thị kết quả
@@ -52,8 +52,8 @@ def analyze_chunks(file_path):
     short_chunks = s[s < 200].count()
     long_chunks = s[s > 2000].count()
     
-    print(f"Số chunk < 200 token: {short_chunks} (Cần kiểm tra lại)")
-    print(f"Số chunk > 2000 token: {long_chunks} (Cần kiểm tra lại)")
+    print(f"Số chunk < 200 token: {short_chunks} ")
+    print(f"Số chunk > 2000 token: {long_chunks} ")
 
 if __name__ == "__main__":
     analyze_chunks(CHUNK_FILE_PATH)

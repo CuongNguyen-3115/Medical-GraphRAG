@@ -1,0 +1,1 @@
+# Chứa siêu tham số: LLM model ID (Llama-3), context window limits, thresholds (điểm helpfulness tối thiểu)

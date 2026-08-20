@@ -5,6 +5,7 @@
 GRAPH_EXTRACTION_PROMPT = """
 -Goal-
 Bạn là một chuyên gia phân tích tri thức y khoa cấp cao. Cho một tài liệu văn bản y tế và một danh sách các loại thực thể, hãy xác định tất cả các thực thể thuộc các loại đó và tất cả các mối quan hệ giữa các thực thể đã xác định. 
+TRẢ VỀ KẾT QUẢ TRỰC TIẾP DƯỚI DẠNG TUPLE. KHÔNG viết câu dẫn, KHÔNG đánh số thứ tự (1, 2, 3), KHÔNG chia tiêu đề 'Bước 1', 'Bước 2'. Chỉ xuất dữ liệu và dấu phân cách ####.
 
 -Steps-
 1. Xác định tất cả các thực thể. Với mỗi thực thể, trích xuất các thông tin sau:

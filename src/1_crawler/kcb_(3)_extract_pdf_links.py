@@ -7,8 +7,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 
 # --- Cấu hình đường dẫn ---
-BASE_PATH = r"C:\1. Project\2. DoAn_GraphRAG"
-EXCEL_FILE = os.path.join(BASE_PATH, "Data", "Medical_Metadata_demo.xlsx")
+BASE_PATH = r"C:\1. Project\ĐATN"
+EXCEL_FILE = os.path.join(BASE_PATH, "Data", "Medical_Metadata.xlsx")
 LOG_FILE = os.path.join(BASE_PATH, "logs", "download_log.txt")
 
 def setup_driver(download_path):
